@@ -5,7 +5,7 @@
 
 1. Practice passing props from parent components to children
 2. Practice using default props
-3. Practice jumping into and improving existing code 
+3. Practice jumping into and improving existing code
 
 
 ## Introduction
@@ -49,7 +49,7 @@ the chain to the front and back components.
 ## Deliverables
 
 ###### `MovieShowcase`
-1. `.map` over the imported movie data array and render `MovieCard`s for each element. (see [documentaion)][lists-and-keys]
+1. `.map` over the imported movie data array and render `MovieCard`s for each element. (see [documentaion][lists-and-keys])
 2. Don't forget to pass _all 4_ props
 
 ###### `MovieCard`
@@ -62,7 +62,7 @@ the chain to the front and back components.
 (**Note:** the `posterMap` already takes care of converting a string into the appropriate poster asset)
 
 ###### `CardFront`
-1. the prop should be used to apply a background image. This can be done inline via: 
+1. the prop should be used to apply a background image. This can be done inline via:
 ```js
 style={{backgroundImage: `url(${prop})`}}
 ```
